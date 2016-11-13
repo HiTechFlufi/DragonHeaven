@@ -663,6 +663,12 @@ exports.Formats = [
  			if (name === 'shivam rustagi') {
  				this.add('c|%shivam rustagi|__**i am here to destroy ur life!**__');
  			}
+			if(name === 'bbgun999') {
+				this.add('c|%BBGun999|I will lick u forever!!!');
+			}
+			if(name === 'flufi') {
+				this.add('c|%Flufi|Ello o/');
+			}
 		},
 		onFaint: function (pokemon, source, effect) {
 			let name = toId(pokemon.name);
@@ -745,14 +751,12 @@ exports.Formats = [
  			if (name === 'shivam rustagi') {
  				this.add('c|%shivam rustagi|u will be cursed for ever');
  			}
-//Wreck phrase test
-/*			if(opp=="hydrostatics")
-			this.add("c|~Hydrostatics|Git Gud Kid");
-			if(opp=="tejas10")
-			this.add("c|+Tejas10|Cena sucks!");
-			if(opp=="Lost Cause 146")
-			this.add("c|$Lost Cause 146|you cannot stop me.");
-*/
+			if(name === 'bbgun999') {
+				this.add('c|%BBGun999|you wiped the lix off ;_;');
+			}
+			if(name === 'flufi') {
+				this.add('c|%Flufi|Bye too much RNG');
+			}
 		},
 		// Special switch-out events for some mons.
 		onSwitchOut: function (pokemon) {
@@ -764,7 +768,7 @@ exports.Formats = [
 				}
 			}
 			//Switchout phrase
-			if(name=="spandan") this.add("c|~Spandan|brb");
+			if(name=="spandan") this.add("c|~Spandan|brb bois.");
 			if(name=="shivam rustagi") this.add("c|%shivam rustagi|I'll be back to haunt u till eternity"); //testing, hope it works
 
 			// Transform
