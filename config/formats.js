@@ -2066,6 +2066,15 @@ exports.Formats = [
 		banlist: ['Uber', 'Power Construct', 'Shadow Tag'],
 	},
 	{
+		name: "[Gen 7] Unrestricted OU",
+		desc: ["&bullet; OU-based metagame with less restrictions and rules. Basically Anything Goes but with the typical OU Pokemon banlist."
+		],
+		
+                mod: 'gen7',
+		ruleset: ['Pokemon', 'Team Preview'],
+		banlist: ['Uber'],
+	},
+	{
 		name: "[Gen 7] Ubers",
 		desc: ["&bullet; <a href=\"https://www.smogon.com/forums/threads/3587184/\">Ubers Metagame Discussion</a>"],
 
