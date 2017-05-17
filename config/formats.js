@@ -3738,6 +3738,17 @@ exports.Formats = [
 		mod: 'thefirstnewgen',
 	},
 	{
+		name: "[Gen 7] Prehistoric",
+		desc: ["&bullet; Coded by flufi.",
+		       "A pet mod taking place in prehistoric times.",
+		       "100+ Pokemon receive new Primal forms, and every Pokemon",
+		       "that gets a primal form get's a new signature move.",
+		      ],
+		ruleset: ['[Gen 7] Ubers'],
+		mod: 'prehistoric',
+		
+	},
+	{
 		name: "[Gen 7] Jillian",
 		desc: ["&bullet; A custom region",
 		      ],
